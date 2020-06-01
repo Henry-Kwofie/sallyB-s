@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #f5f5f0; 
+}
+
+nav .nav-link:hover {
+    font-weight: bold;
+    
+    
+}
+
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.headerHeight{
+    min-height: 100vh;
+    border-bottom: 2px solid #ff0000;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../resources/chicken-4474176_1280.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+a{
+    text-decoration: none !important;
+
+}
+
+
+#welcome{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+#welcome h1{
+font-size: 100px;
+font-family: 'Dancing Script', cursive;
+font-family: 'Sacramento', cursive;
+
+}
+
+#welcome .text1{
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+#storys{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+#storys h1{
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Sacramento', cursive;
+}
+
+
+
+
+
+
+
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    justify-content: center;
+}
+
+
+#about{
+    background-color: #f8f9fa;
+}
+
+#about-text{
+    max-height: 310px;
+    overflow-y: hidden;
+}
+
+.about1bg{
+    min-height: 450px;
+    background:  linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../resources/herd-of-hen-840111.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color: #ff3333;
+}
+
+.inner_footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+.inner_footer .logo_container{
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+
+.inner_footer .logo_container img{
+    width: 65px;
+    height: auto;
+
+}
+
+.inner_footer .footer_third{
+    width: calc(21.6666666667% - 20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+
+.inner_footer .footer_third:last-child{
+    margin-right: 0;
+}
+
+.inner_footer .footer_third h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inner_footer .footer_third a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+
+.inner_footer .footer_third li{
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+}
+
+.inner_footer.footer_third span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+}
+
+@media(max-width: 800px){
+    .footer .inner_footer{
+        width: 90%;
+    }
+    .inner_footer .logo_container,
+    .inner_footer .footer_third{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
